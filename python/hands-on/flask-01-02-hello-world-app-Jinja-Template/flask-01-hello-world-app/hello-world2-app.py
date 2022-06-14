@@ -1,8 +1,8 @@
-from flask import Flask
+from flask import Flask 
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
-@app.route('/')
+@app.route('/') 
 def hello():
     return "Hello World from Flask!!!"
 
@@ -14,7 +14,7 @@ def second():
 def third():
     return 'This is the subpage of third page'
 
-@app.route('/forth/<string:id>')
+@app.route('/forth/<string:id>') #forth dan sonra hangi sayiyi yazarsak bize onun id numarasini verir.
 def forth(id):
     return f'Id number of this page is {id}'
 
