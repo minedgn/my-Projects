@@ -38,8 +38,5 @@ def calculate():
 
 if __name__== "__main__":
     #app.run(debug=True)
-<<<<<<< HEAD
-    app.run(host='0.0.0.0', port=80)   
-=======
-    app.run(host='0.0.0.0', port=80)   
->>>>>>> 8640357bf6242bc39a1c1ca5597b00efbb354c56
+     app.run(host='0.0.0.0', port=80)   
+    
